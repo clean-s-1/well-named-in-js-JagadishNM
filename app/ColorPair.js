@@ -1,4 +1,4 @@
-export class ColorPair {
+module.exports = class ColorPair {
     constructor() {
         this.majorColor;
         this.minorColor;

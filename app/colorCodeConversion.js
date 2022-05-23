@@ -1,7 +1,8 @@
-import { ColorPair } from "./ColorPair";
-import { MAJOR_COLOR_NAMES, MINOR_COLOR_NAMES } from "./constants";
+const ColorPair = require("../app/ColorPair");
+const MAJOR_COLOR_NAMES = require("../app/constants");
+const MINOR_COLOR_NAMES = require("../app/constants");
 
-export function getColorFromPairNumber(pairNumber) {
+module.exports =  function getColorFromPairNumber(pairNumber) {
     let minorSize = MAJOR_COLOR_NAMES.length;
     let majorSize = MINOR_COLOR_NAMES.length;
 
@@ -17,7 +18,7 @@ export function getColorFromPairNumber(pairNumber) {
     return pair;
 }
 
-export function getPairNumberFromColor(pair) {
+module.exports =  function getPairNumberFromColor(pair) {
     let majorIndex = -1;
     for (let i = 0; i < MAJOR_COLOR_NAMES.length; i++) {
         if (MAJOR_COLOR_NAMES[i] == pair.majorColor) {
