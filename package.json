@@ -1,0 +1,20 @@
+{
+  "name": "well-named-in",
+  "version": "1.0.0",
+  "description": "JS Assignment Repository",
+  "main": "colorCoder.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app/colorCoder.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clean-s-1/well-named-in-js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/clean-s-1/well-named-in-js/issues"
+  },
+  "homepage": "https://github.com/clean-s-1/well-named-in-js#readme"
+}
