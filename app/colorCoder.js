@@ -1,6 +1,5 @@
 const ColorPair = require("../app/ColorPair");
-const getColorFromPairNumber = require("../app/colorCodeConversion");
-const getPairNumberFromColor = require("../app/colorCodeConversion");
+const {getColorFromPairNumber, getPairNumberFromColor} = require("../app/colorCodeConversion");
 
 function test() {
     pairNumber = 4;
