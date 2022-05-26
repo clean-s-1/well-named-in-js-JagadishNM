@@ -27,8 +27,8 @@ module.exports = {
   },
 
   getPairNumberFromColor: function (pair) {
-    let majorIndex = getColorIndex(MAJOR_COLOR_NAMES, pair.majorColor);
-    let minorIndex = getColorIndex(MINOR_COLOR_NAMES, pair.minorColor);
+    let majorIndex = module.exports.getColorIndex(MAJOR_COLOR_NAMES, pair.majorColor);
+    let minorIndex = module.exports.getColorIndex(MINOR_COLOR_NAMES, pair.minorColor);
 
     if (majorIndex == -1 || minorIndex == -1) {
       throw `Unknown Colors:${pair.toString()}`;
