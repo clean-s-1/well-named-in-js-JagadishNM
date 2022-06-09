@@ -1,5 +1,5 @@
 const ColorPair = require("../app/ColorPair");
-
+const { MAJOR_COLOR_NAMES, MINOR_COLOR_NAMES } = require("../app/constants");
 module.exports = {
 
 getColorFromPairNumber: function (pairNumber) {
