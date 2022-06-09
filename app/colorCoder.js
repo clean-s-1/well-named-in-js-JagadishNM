@@ -1,5 +1,7 @@
 const ColorPair = require("../app/ColorPair");
-const {getColorFromPairNumber, getPairNumberFromColor} = require("../app/colorCodeConversion");
+const {getPairNumberFromColor} = require("../app/colorCodeConversion");
+const {getColorFromPairNumber} = require("../app/getColorFromPairNumber");
+const {getReferencemanual} = require("../app/reference");
 
 function test() {
     pairNumber = 4;
@@ -35,3 +37,6 @@ function test() {
     console.assert(pairNumber == 6);
 }
 test();
+
+// print reference manual
+console.table(getReferencemanual())
