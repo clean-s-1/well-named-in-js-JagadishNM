@@ -4,6 +4,6 @@ module.exports = class ColorPair {
         this.minorColor;
     }
     toString() {
-        return `MajorColor:${this.majorColor},MinorColr:${this.minorColor}`;
+        return `MajorColor:${this.majorColor},MinorColor:${this.minorColor}`;
     }
 }
